@@ -6,7 +6,9 @@ namespace labclothingcollectionbd.Models
     {
         [Required(ErrorMessage = "O campo nome é obrigatório")]
         public required string Email { get; set; }
+        [Required]
         public TipoUsuario Tipo { get; set; }
+        [Required]
         public StatusUsuario Status { get; set; }
     }
     public enum TipoUsuario

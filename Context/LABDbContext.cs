@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace labclothingcollectionbd.Context
 {
-    public class LABDbContext: DbContext
+    public class LABDbContext : DbContext
     {
         public LABDbContext(DbContextOptions<LABDbContext> options) : base(options) { }
         public LABDbContext() { }
